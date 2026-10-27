@@ -1,0 +1,19 @@
+{
+  "name": "stream-community-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for streamers' communities: welcome cards, self-serve role buttons, Twitch go-live alerts, and a mod log.",
+  "type": "module",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/bot.js",
+    "register": "node --env-file-if-exists=.env src/register.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.27.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "welcomeChannelId": "123456789012345678",
+  "logChannelId": "123456789012345679",
+  "liveChannelId": "123456789012345680",
+  "roles": [
+    { "id": "223456789012345678", "label": "Stream pings", "emoji": "🔔" },
+    { "id": "223456789012345679", "label": "Fortnite", "emoji": "🎮" },
+    { "id": "223456789012345680", "label": "Clips", "emoji": "🎬" }
+  ],
+  "twitch": { "logins": ["your_twitch_name"], "pingRoleId": "223456789012345678", "pollSeconds": 60 }
+}
